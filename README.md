@@ -7,14 +7,64 @@ We will help the chief data scientist for a city school district analyze data on
 
 ## School District Analysis Results
 Due to potential academic dishonesty by the 9th-grade students from Thomas High School, we ran the analysis twice to figure out the impact of this issue. The first round of this analysis included the whole dataset, while in the second trial, we omitted the Thomas High School ninth graders’ math and reading scores omitted from the calculations. After replacing the inaccurate data for the 9th graders at Thomas High School, there are some changes occurred.
-- District summary: The overall differences are too small to notice after replacing. Only the average math score decrease 0.2 and there are not any changes between average reading score. All passing percentages have slightly drop around 0.2%-0.3%.  
-- School summary: Thomas High School is affected by this replacing. All score related data are differed from the original one, and only the average math score shows a better result with 0.05 increase. The others face slightly decrease, and the overall passing percentage has the largest change which shrink 0.32% but still within the 90 percentile passing.  
-- Thomas High School's performance v.s. the other schools: Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63% among their tenth through twelfth graders.
-- Other factors:
+- **District summary**: The overall differences are too small to notice after replacing. Only the average math score decrease 0.2 and there are not any changes between average reading score. All passing percentages have slightly drop around 0.2%-0.3%. 
+
+  * Original 
+  *    ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/District%20Summary%20original.png)
+  * Updated
+  *    ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/District%20Summary%20new.png)    
+   
+- **School summary**: Thomas High School is affected by this replacing. All score related data are differed from the original one, and only the average math score shows a better result with 0.05 increase. The others face slightly decrease, and the overall passing percentage has the largest change which shrink 0.32% but still within the 90 percentile passing.  
+
+  * Original
+  * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/School%20Summary%20original.png)
+  * Updated
+  *  ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/School%20Summary%20new.png)
+
+
+- **Thomas High School's performance v.s. the other schools**: Thomas High School is still the second best performing school in the district with an overall passing rate of 90.63% among their tenth through twelfth graders.
+
+  * Original
+  * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Top%205%20by%20ovarall%20passing%20original.png)
+  * Updated
+  * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Top%205%20by%20ovarall%20passing%20new.png)
+
+
+- **Other factors**:
   -  Math and reading scores by grades: only the average math and reading score of Thomas High School ninth graders are replacing from 83.6 and 83.7 to NaN. All the other scores are not affected by the replacing.
+
+      * Math Original
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Math%20by%20grade%20original.png)
+      * Math Updated
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Math%20by%20grade%20new.png)
+
+      * Reading Original
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Reading%20by%20grade%20original.png)
+      * Reading Updated
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Reading%20by%20grade%20new.png)
+    
   -  Scores by school spending: There is not any changes
+
+      * Original
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20spending%20original.png)
+      * Updated
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20spending%20new.png)
+
+
   -  Scores by school size: The passing reading percentages are significantly increased, specially the small and medium size school have over 10 points improvement. However, the other factors are not changed.
+
+      * Original
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20size%20original.png)
+      * Updated
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20size%20new.png)
+
+
   -  Scores by school type: There is not any changes 
+
+      * Original
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20type%20original.png)
+      * Updated
+      * ![image](https://github.com/Jarviniazh/Module-4-Challenge-School-District-Analysis/blob/main/Resources/Output%20screenshots/Score%20by%20type%20new.png)
 
 ## School District Analysis Summary
 Though 461 9th-grade students from Thomas High School is minimal compared to a total of 39,170 students, the replacing might still impact the analysis results from the following four ponits.
